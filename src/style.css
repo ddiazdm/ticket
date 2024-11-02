@@ -1,0 +1,87 @@
+.lines-table {
+  display: table;
+  width: 100%;
+  border: 1px solid #000;
+  border-collapse: collapse;
+}
+
+.lines-table th,
+.lines-table td {
+  border: 1px solid #000;
+  padding: 8px;
+  text-align: left;
+}
+
+.lines-table thead {
+  background-color: #f2f2f2;
+}
+
+tr {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+}
+tbody {
+  display: table-row-group;
+  vertical-align: middle;
+  border-color: 1px solid #000;
+}
+#ticket-lines {
+  border: 1px solid #000;
+}
+
+.iva-desglose {
+  margin: 20px 0;
+  padding: 15px;
+  border: 1px solid #000;
+}
+
+.iva-desglose h3 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #000;
+}
+
+#iva-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#iva-list li {
+  padding: 8px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+#iva-list li:last-child {
+  border-bottom: none;
+}
+
+.total {
+  margin: 20px 0;
+  padding: 15px;
+  border: 1px solid #000;
+}
+
+.total h3 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #000;
+}
+
+#total {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#total p {
+  padding: 8px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+#total p:last-child {
+  border-bottom: none;
+}

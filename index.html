@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="src/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ticket App</title>
+  </head>
+  <body>
+    <div id="app">
+      <div class="ticket">
+        <h2>Ticket de Compra</h2>
+
+        <table class="lines-table">
+          <thead>
+            <tr>
+              <th>Producto</th>
+              <th>Cantidad</th>
+              <th>Precio sin IVA</th>
+              <th>Precio con IVA</th>
+            </tr>
+          </thead>
+          <tbody id="ticket-lines"></tbody>
+        </table>
+
+        <div class="iva-desglose">
+          <h3>Desglose IVA</h3>
+          <ul id="iva-list"></ul>
+        </div>
+
+        <div class="total">
+          <h3>Total</h3>
+          <ul id="total"></ul>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
